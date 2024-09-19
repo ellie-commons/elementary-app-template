@@ -54,8 +54,8 @@ This template is fully translatable and everything is setup as described in the 
 Remember that each time you add new translatable strings or change old ones, you should regenerate your `*.pot` and `*.po` files using the `*-pot` and `*-update-po` build targets from the previous two steps as follows:
 
 ```bash
-ninja -C build io.github.yourusername.yourrepositoryname-pot
-ninja -C build io.github.yourusername.yourrepositoryname-update-po
+ninja io.github.yourusername.yourrepositoryname-pot
+ninja io.github.yourusername.yourrepositoryname-update-po
 ```
 
 ### Add more languages

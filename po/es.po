@@ -1,14 +1,14 @@
-# Spanish translations for com.github.yourusername.yourrepositoryname package.
-# Copyright (C) 2022 THE com.github.yourusername.yourrepositoryname'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.yourusername.yourrepositoryname package.
-# Automatically generated, 2022.
+# Spanish translations for io.github.yourusername.yourrepositoryname package.
+# Copyright (C) 2024 THE io.github.yourusername.yourrepositoryname'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.yourusername.yourrepositoryname package.
+# Automatically generated, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.yourusername.yourrepositoryname\n"
+"Project-Id-Version: io.github.yourusername.yourrepositoryname\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:06+0100\n"
-"PO-Revision-Date: 2022-02-09 20:41+0100\n"
+"POT-Creation-Date: 2024-09-19 05:48-0500\n"
+"PO-Revision-Date: 2024-09-19 05:48-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -17,26 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Application.vala:48
-msgid "Hello World"
-msgstr "Hola Mundo"
-
-#: data/com.github.yourusername.yourrepositoryname.desktop.in:6
-#: data/com.github.yourusername.yourrepositoryname.metainfo.xml.in:5
-msgid "My App"
-msgstr "Mi App"
-
-#: data/com.github.yourusername.yourrepositoryname.desktop.in:7
-#: data/com.github.yourusername.yourrepositoryname.metainfo.xml.in:6
-msgid "Proves that we can use Vala and Gtk"
-msgstr "Demuestra que podemos usar Vala y Gtk"
-
-#: data/com.github.yourusername.yourrepositoryname.desktop.in:10
-msgid "com.github.yourusername.yourrepositoryname"
-msgstr ""
-
-#: data/com.github.yourusername.yourrepositoryname.metainfo.xml.in:12
-msgid ""
-"A quick summary of your app's main selling points and features. Just a "
-"couple sentences per paragraph is best"
+#: src/MainWindow.vala:13
+msgid "My App Name"
 msgstr ""
