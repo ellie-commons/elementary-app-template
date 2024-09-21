@@ -9,7 +9,7 @@ public class MainWindow : Gtk.ApplicationWindow {
             application: application,
             default_height: 300,
             default_width: 300,
-            icon_name: "io.github.yourusername.yourrepositoryname",
+            icon_name: "{{APPLICATION_ID}}",
             title: _("My App Name")
         );
     }

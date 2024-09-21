@@ -8,7 +8,7 @@ public class MyApp : Gtk.Application {
 
     public MyApp () {
         Object (
-            application_id: "io.github.yourusername.yourrepositoryname",
+            application_id: "{{APPLICATION_ID}}",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -44,7 +44,7 @@ public class MyApp : Gtk.Application {
         * Set maximize after height/width else window is min size on unmaximize
         * Bind maximize as SET else get get bad sizes
         */
-        var settings = new Settings ("io.github.yourusername.yourrepositoryname");
+        var settings = new Settings ("{{APPLICATION_ID}}");
         settings.bind ("window-height", main_window, "default-height", SettingsBindFlags.DEFAULT);
         settings.bind ("window-width", main_window, "default-width", SettingsBindFlags.DEFAULT);
 

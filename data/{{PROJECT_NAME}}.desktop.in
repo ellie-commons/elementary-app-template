@@ -2,10 +2,10 @@
 Version=1.0
 Type=Application
 
-Name=My App
+Name={{PROJECT_NAME}}
 Comment=Proves that we can use Vala and Gtk
 Categories=Development;Education;
 
-Icon=io.github.yourusername.yourrepositoryname
-Exec=io.github.yourusername.yourrepositoryname
+Icon={{APPLICATION_ID}}
+Exec={{APPLICATION_ID}}
 Terminal=false
