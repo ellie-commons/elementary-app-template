@@ -33,9 +33,9 @@ public class MyApp : Gtk.Application {
 
     protected override void activate () {
         if (main_window != null) {
-			main_window.present ();
-			return;
-		}
+            main_window.present ();
+            return;
+        }
 
         var main_window = new MainWindow (this);
 
