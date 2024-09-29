@@ -15,9 +15,9 @@ public class MainWindow : Gtk.ApplicationWindow {
     }
 
     static construct {
-		weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_for_display (Gdk.Display.get_default ());
-		default_theme.add_resource_path ("/io/github/yourusername/yourrepositoryname/");
-	}
+        weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_for_display (Gdk.Display.get_default ());
+        default_theme.add_resource_path ("/io/github/yourusername/yourrepositoryname/");
+    }
 
     construct {
         var start_header = new Gtk.HeaderBar () {
