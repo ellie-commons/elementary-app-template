@@ -15,7 +15,8 @@
   </description>
 
   <launchable type="desktop-id">io.github.myteam.myapp.desktop</launchable>
-
+  <developer_name translate="no">elementary Community</developer_name>
+  <update_contact>contact_at_elementary.io</update_contact>
   <custom>
     <value key="x-appcenter-color-primary">#603461</value>
     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
