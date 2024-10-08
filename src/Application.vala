@@ -1,6 +1,6 @@
 /*
 * SPDX-License-Identifier: GPL-3.0-or-later
-* SPDX-FileCopyrightText: 2021 Your Name <you@email.com>
+* SPDX-FileCopyrightText: {{YEAR}} {{DEVELOPER_NAME}} <{{DEVELOPER_EMAIL}}>
 */
 
 public class MyApp : Gtk.Application {
