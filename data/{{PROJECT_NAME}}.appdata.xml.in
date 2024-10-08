@@ -15,7 +15,8 @@
   </description>
 
   <launchable type="desktop-id">{{APPLICATION_ID}}.desktop</launchable>
-
+  <developer_name translate="no">{{DEVELOPER_NAME}}</developer_name>
+  <update_contact>{{DEVELOPER_EMAIL}}</update_contact>
   <custom>
     <value key="x-appcenter-color-primary">#603461</value>
     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
