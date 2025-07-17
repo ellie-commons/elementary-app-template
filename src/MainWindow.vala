@@ -20,6 +20,10 @@ public class MainWindow : Gtk.ApplicationWindow {
     }
 
     construct {
+        var provider = new Gtk.CssProvider ();
+        provider.load_from_resource ("/io/github/yourusername/yourrepositoryname/Application.css");
+        add_css_class (provider.to_string());
+
         var start_header = new Gtk.HeaderBar () {
             show_title_buttons = false,
             title_widget = new Gtk.Label ("")

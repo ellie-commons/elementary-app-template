@@ -54,15 +54,6 @@ public class MyApp : Gtk.Application {
 
         settings.bind ("window-maximized", main_window, "maximized", SettingsBindFlags.SET);
 
-        // Use Css
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/io/github/yourusername/yourrepositoryname/Application.css");
-
-        Gtk.StyleContext.add_provider_for_display (
-            Gdk.Display.get_default (),
-            provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
-
         main_window.present ();
     }
 
